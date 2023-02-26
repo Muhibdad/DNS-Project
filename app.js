@@ -70,3 +70,5 @@ for(let i=0;i<plaintext.length;i++){
 }
 outText.value=result;
 }
+
+console.log("Page");
