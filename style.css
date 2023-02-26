@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #16a085;
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  

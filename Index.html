@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Encryption/Decryption App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Encryption/Decryption App</h1>
+        <div class="form-group">
+          <label for="algorithm">Select an Algorithm:</label>
+          <select class="form-control" id="algorithm" required="required">
+            <option value="Select">Select</option>
+            <option value="Additive">Additive Cipher</option>
+            <option value="des">DES</option>
+            <option value="3des">3DES</option>
+            <option value="rc4">RC4</option>
+          </select>
+        </div>
+
+      <div class="form-group">
+        <label for="inputText">Enter Text to Encrypt/Decrypt</label>
+        <textarea class="form-control" id="inputText" rows="3" required="required"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="key">Enter Key for Encryption/Decryption</label>
+        <textarea class="form-control" id="key" rows="1"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="outputText">Output Text</label>
+        <textarea class="form-control" id="outputText" rows="3" readonly></textarea>
+      </div>
+      <button type="button" class="btn" id="encryptBtn">Encrypt</button>
+      <button type="button" class="btn" id="decryptBtn">Decrypt</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
